@@ -1,0 +1,14 @@
+Chức năng hệ thống: Mở đóng cửa ra vào cho một số người cho phép trước chứ không phải bất kỳ ai muốn vào ra. Như vậy HT phải có chức năng:
+- Cho đăng kí : tức là đăng kí thẻ.
+- Kiểm tra cho vào: người đã đăng kí khi vào phải quét thẻ trùng khớp --> lệnh mở cửa
+- Khi cửa mở, định thời x giây sẽ tự đóng lại. 
+- khi ra: quét thẻ trùng khớp --> lệnh mở cửa ra 
+- các chức năng phụ :
+  + Khóa cửa : không cho quét thẻ, không vào ra
+  + bật hệ thống: cửa luôn luôn ở trang thái đóng, hệ tóống cho phép vào ra khi quét thẻ như mô tả trên
+  + Mở cửa (tắt hệ thống): cửa mở  tự do, không kiểm tra vào ra
+  + Ghi nhận thông tin thời gian, số thẻ lên hệ thống.
+sử dụng database lưu trên xampp
+
+
+
