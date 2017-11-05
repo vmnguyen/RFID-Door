@@ -9,12 +9,10 @@ error_reporting(0);
 	
 	$link=Connection();
 
-	$result=mysql_query("SELECT * FROM `users` WHERE 1",$link);
+	$result=mysql_query("SELECT * FROM `logs` WHERE 1",$link);
 
 
 ?>
-
-
 
 <html>
 <head>
@@ -44,7 +42,7 @@ error_reporting(0);
 <div class="container">
 
 <div class="panel panel-info">
-<div class="panel-heading"><h4>RFID project - Registed Card Database</h4></div>
+<div class="panel-heading"><h4>RFID project - Logging Database</h4></div>
 
 
 
